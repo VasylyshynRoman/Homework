@@ -30,14 +30,17 @@ body {
 .header {
     width: 95%;
     height: 80%;
+    margin: 5px;
     background: lightpink;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font: 12pt/10pt sans-serif;
 }
 
 .nav {
     width: 95%;
+    margin: 2px;
     height: 80%;
     background: lightgray;
 }
@@ -97,7 +100,7 @@ body {
 .box_content_right_art {
     width: 95%;
     height: 35%;
-    margin: 10px;
+    margin: 5px;
 
     display: flex;
     flex-direction: column;
@@ -106,10 +109,10 @@ body {
     background: grey;
 }
 
-.box_p{
+.box_p {
     width: 95%;
-    height: 35%;
-    margin: 10px;
+    height: 40%;
+    margin: 5px;
     background: brown;
 
 }
@@ -117,36 +120,37 @@ body {
 .box_content_right_footer {
     width: 95%;
     height: 10%;
-    margin: 2px;
+    margin: 10px;
     background: lightcoral;
 }
 
-.box_p_aside{
+.box_p_aside {
     width: 95%;
     height: 50%;
-    margin: 10px;
+    margin: 5px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: cadetblue;
 }
 
-.box_p_right{
+.box_p_right {
     width: 50%;
-    height: 95%;
-     background: chartreuse;
+    height: 100%;
+    background: chartreuse;
 
 }
 
-.box_aside_right{
-    width: 40%;
-    height: 95%;
+.box_aside_right {
+    width: 45%;
+    height: 100%;
     background: lightblue;
 }
+
 .box_footer {
     width: 95%;
     height: 10%;
-    margin: 10px;
+    margin: 5px;
     display: flex;
     align-items: center;
     background: gold;
