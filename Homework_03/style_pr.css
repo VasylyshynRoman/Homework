@@ -1,0 +1,120 @@
+body{
+    background: lightgray;
+}
+
+.box {
+    width: 450px;
+    height: 900px;
+    margin: 0 auto;
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border{
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.box_header{
+    width: 99%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: chartreuse;
+}
+
+.box_Nav {
+    width: 99%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: magenta;
+}
+
+.box_body {
+    width: 99%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: tomato;
+}
+
+.box_artical {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background: cornflowerblue;
+}
+
+.box_artical_box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: cornflowerblue;
+}
+
+.box_art_header {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgreen;
+}
+
+.box_foot {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: beige;
+}
+
+.box_section {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkorchid;
+}
+
+.box_footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+}
+
+.box_div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: burlywood;
+}
+
+.box_aside {
+    width: 100%;
+    height: 45%;
+    background: aqua;
+}
+
+.box_footer_end{
+    width: 99%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+}

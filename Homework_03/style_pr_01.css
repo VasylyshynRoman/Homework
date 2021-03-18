@@ -1,0 +1,153 @@
+body {
+    background: lightgray;
+}
+
+.border {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 450px;
+    height: 900px;
+    margin: 0 auto;
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_header {
+    width: 95%;
+    height: 10%;
+    margin: 10px;
+    background: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header {
+    width: 95%;
+    height: 80%;
+    background: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav {
+    width: 95%;
+    height: 80%;
+    background: lightgray;
+}
+
+.box_content {
+    width: 95%;
+    height: 80%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: burlywood;
+}
+
+.box_content_left {
+    width: 35%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: cornflowerblue;
+}
+
+.box_content_left_header {
+    width: 95%;
+    height: 10%;
+    margin: 10px;
+    background: deepskyblue;
+}
+
+.box_content_left_nav {
+    width: 95%;
+    height: 70%;
+    margin: 10px;
+    background: aquamarine;
+}
+
+.box_content_left_footer {
+    width: 95%;
+    height: 10%;
+    margin: 10px;
+    background: coral;
+}
+
+.box_content_right {
+    width: 60%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: blueviolet;
+}
+
+.box_content_right_art {
+    width: 95%;
+    height: 35%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: grey;
+}
+
+.box_p{
+    width: 95%;
+    height: 35%;
+    margin: 10px;
+    background: brown;
+
+}
+
+.box_content_right_footer {
+    width: 95%;
+    height: 10%;
+    margin: 2px;
+    background: lightcoral;
+}
+
+.box_p_aside{
+    width: 95%;
+    height: 50%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    background: cadetblue;
+}
+
+.box_p_right{
+    width: 50%;
+    height: 95%;
+     background: chartreuse;
+
+}
+
+.box_aside_right{
+    width: 40%;
+    height: 95%;
+    background: lightblue;
+}
+.box_footer {
+    width: 95%;
+    height: 10%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background: gold;
+}
